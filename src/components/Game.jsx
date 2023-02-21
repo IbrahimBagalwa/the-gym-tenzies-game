@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "./Button";
 import Die from "./Die";
 import Confetti from "react-confetti";
@@ -81,7 +81,7 @@ const Game = () => {
         />
       )}
       <div className="bg-[#F5F5F5] h-[400px] w-[600px] mx-auto container rounded-md flex gap-6 flex-col justify-center items-center">
-        <div className="text-center w-2/5">
+        <div className="w-2/5 text-center">
           <h2 className="font-bold text-3xl text-[#2B283A] mb-4">Tenzies</h2>
           <p className="text-[#4A4E74] text-sm">
             Roll until all dice are the same. Click each die to freeze it at its
